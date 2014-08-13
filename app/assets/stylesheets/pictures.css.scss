@@ -1,0 +1,43 @@
+@import "reset";
+@import "variables";
+
+body{
+	background-color: $dark-gray;
+}
+#main-container{
+	margin-left: 1rem;
+}
+
+#new_picture ul, .edit_picture ul{
+	width: 40%;
+	height: 500px;
+	position:relative;
+	list-style:none;
+	padding-right:1rem;
+	
+	label{
+		width: 30%;
+		position:relative;
+		text-align: right;
+		float:left;
+		clear:left;
+	}
+	input[type=text], p{
+		width:60%;
+		float:right;
+		clear:right;
+		box-sizing:border-box;
+	}
+	p{padding-top:1rem;}
+	input[type=submit]{
+		border:none;
+		background-color:$red;
+		height: 2rem;
+		width: 4.5rem;
+		font-size: 0.75rem;
+		display:block;
+		&:hover{
+			background-color: darken($red, 10%);
+		}
+	}
+}
