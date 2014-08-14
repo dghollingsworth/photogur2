@@ -3,7 +3,7 @@
 
 -@pictures.each do |picture|
 	%p #{picture[:artist]} - #{picture[:title]}
-	%p #{link_to image_tag(picture.url), picture_path(picture)}
+	#{link_to image_tag(picture.url), picture_path(picture)}
 
 		 
 		
