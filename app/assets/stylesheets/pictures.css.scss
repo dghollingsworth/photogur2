@@ -1,14 +1,33 @@
 @import "reset";
 @import "variables";
 
+html{
+	overflow-y: scroll;
+}
+
 body{
 	background-color: $dark-gray;
+	padding-top: 3.75em;
 }
+section{
+	overflow: auto;
+}
+
+textarea{
+	resize:vertical;
+}
+.center{
+	text-align: center;
+}
+.center h1{
+	margin-bottom: 10px;
+}
+
 #main-container{
 	margin-left: 1rem;
 }
 
-#new_picture ul, .edit_picture ul{
+.forms ul{
 	width: 40%;
 	height: 500px;
 	position:relative;
@@ -22,7 +41,7 @@ body{
 		float:left;
 		clear:left;
 	}
-	input[type=text], p{
+	input[type=text], input[type=password], p{
 		width:60%;
 		float:right;
 		clear:right;

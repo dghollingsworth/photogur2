@@ -50,6 +50,11 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.2.1)
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.0)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
     ffi (1.9.3)
     haml (4.0.5)
       tilt
@@ -155,6 +160,7 @@ DEPENDENCIES
   bcrypt-ruby (~> 3.1.2)
   bootstrap-sass (= 2.3.2.0)
   capybara (= 2.1.0)
+  factory_girl_rails (= 4.2.0)
   haml (~> 4.0.5)
   jbuilder (~> 1.2)
   jquery-rails
