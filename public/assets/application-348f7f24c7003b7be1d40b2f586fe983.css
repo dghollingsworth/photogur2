@@ -1,0 +1,238 @@
+/* line 15, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 1.25rem;
+  margin-bottom: 1rem;
+  /* 20px */
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* line 28, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h1 {
+  font-size: 2rem;
+  /* 32px */
+  line-height: 2.5rem;
+  /* 40px */
+}
+
+/* line 32, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h2 {
+  font-size: 1.625rem;
+  /* 26px */
+  line-height: 2.5rem;
+  /* 40px */
+}
+
+/* line 36, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h3 {
+  font-size: 1.375rem;
+  /* 22px */
+  line-height: 2.5rem;
+  /* 40px */
+}
+
+/* line 40, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h4 {
+  font-size: 1.125rem;
+  /* 18px */
+  line-height: 2.5rem;
+  /* 40px */
+}
+
+/* line 44, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h5 {
+  font-size: 1rem;
+  /* 16px */
+  line-height: 1.25rem;
+  /* 20px */
+}
+
+/* line 48, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h6 {
+  font-size: 0.875rem;
+  /* 14px */
+  line-height: 1.25rem;
+  /* 20px */
+}
+
+/* line 52, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+a {
+  color: #e3ae57;
+}
+
+/* line 15, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 1.25rem;
+  margin-bottom: 1rem;
+  /* 20px */
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* line 28, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h1 {
+  font-size: 2rem;
+  /* 32px */
+  line-height: 2.5rem;
+  /* 40px */
+}
+
+/* line 32, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h2 {
+  font-size: 1.625rem;
+  /* 26px */
+  line-height: 2.5rem;
+  /* 40px */
+}
+
+/* line 36, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h3 {
+  font-size: 1.375rem;
+  /* 22px */
+  line-height: 2.5rem;
+  /* 40px */
+}
+
+/* line 40, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h4 {
+  font-size: 1.125rem;
+  /* 18px */
+  line-height: 2.5rem;
+  /* 40px */
+}
+
+/* line 44, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h5 {
+  font-size: 1rem;
+  /* 16px */
+  line-height: 1.25rem;
+  /* 20px */
+}
+
+/* line 48, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+h6 {
+  font-size: 0.875rem;
+  /* 14px */
+  line-height: 1.25rem;
+  /* 20px */
+}
+
+/* line 52, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/reset.css.scss */
+a {
+  color: #e3ae57;
+}
+
+/* line 4, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* line 8, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+body {
+  background-color: #232b2b;
+  padding-top: 3.75em;
+}
+
+/* line 12, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+section {
+  overflow: auto;
+}
+
+/* line 16, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 19, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+.center {
+  text-align: center;
+}
+
+/* line 22, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* line 26, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+#main-container {
+  margin-left: 1rem;
+}
+
+/* line 30, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+.forms ul {
+  width: 40%;
+  height: 500px;
+  position: relative;
+  list-style: none;
+  padding-right: 1rem;
+}
+/* line 37, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+.forms ul label {
+  width: 30%;
+  position: relative;
+  text-align: right;
+  float: left;
+  clear: left;
+}
+/* line 44, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+.forms ul input[type=text], .forms ul input[type=password], .forms ul p {
+  width: 60%;
+  float: right;
+  clear: right;
+  box-sizing: border-box;
+}
+/* line 50, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+.forms ul p {
+  padding-top: 1rem;
+}
+/* line 51, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+.forms ul input[type=submit] {
+  border: none;
+  background-color: #dc3d24;
+  height: 2rem;
+  width: 4.5rem;
+  font-size: 0.75rem;
+  display: block;
+}
+/* line 58, /Users/danhollingsworth/bitmaker/assignments/photogur2/app/assets/stylesheets/pictures.css.scss */
+.forms ul input[type=submit]:hover {
+  background-color: #b1301c;
+}

@@ -1,0 +1,9 @@
+%header.navbar.navbar-fixed-top.navbar-inverse
+	%div.navbar-inner
+		%div.container
+			#{link_to "Photogur", root_url, id: 'logo'}
+			%nav
+				%ul{:class=>"nav pull-right", :id=>"application-navbar-right"}
+					%li #{link_to "Home", root_path}
+					%li #{link_to "Sign in", '#'}
+					%li #{link_to "Sign up", signup_path}
